@@ -1,0 +1,35 @@
+.body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* banner related styles */
+.banner {
+    display: flex;
+  color: #fceef1; 
+
+}
+
+.banner-img {
+    width: 635px;
+    height: 800px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-descrion{
+color: rgba(39, 39, 39, 0.60);
+
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.btn-primary{
+
+
+}
