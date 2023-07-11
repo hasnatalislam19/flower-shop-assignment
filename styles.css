@@ -1,102 +1,118 @@
-	/* common css start*/
-	* {
-        margin: 0;
-        padding: 0;
-    }
-
-	.body {
-        font-family: 'Lato', sans-serif;
-    }
-	.container{
-		width:1140px;
-		margin: 0 auto;
-	}
-	
-    h3 {
-        color: #272727;
-        font-family: Lato;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-    }
-	
-
-    p {
-        color: rgba(39, 39, 39, 0.60);
-        font-family: Lato;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-    }
-	.center{
-	text-align:center;
-	}
-	/* common css end*/
-    /* banner related styles */
-
-    .banner {
-        display: flex;
-		justify-content:space-between;
-        color: #fceef1;
-
-        height: 850px;
-
-    }
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
-    .banner-img {
-	}
+/* common-button */
 
-    .banner-info {
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    margin-left: 130px;
+    justify-content: flex-start;
 
-       /* padding-left: 220px;*/
-    }
+}
 
-    .banner-title {
-        color: #272727;
-        font-family: Lato;
-        font-size: 80px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-    }
+.btn-primary:hover {
+    background: #ec8299;
+}
 
-    .banner-descrion {
-        color: rgba(39, 39, 39, 0.60);
-        font-family: Lato;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-    }
+/*  */
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
 
-    .btn-primary {
-        color: #FFF;
-        font-size: 20px;
-        font-weight: 700;
-        display: inline-flex;
-        padding: 20px 43px;
-        align-items: flex-start;
-        gap: 10px;
-        border-radius: 8px;
-        background: #E55473;
-        border: none;
+    color: rgba(39, 39, 39, 0.60);
+}
 
-    }
+/*  */
+
+.title {
+    color: #272727;
+    font-family: 'lato';
+    padding-top: 100px;
+    padding-left: 130px;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.description {
+
+    font-family: 'Lato' 
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    
+}
+
+.banner-info h3 {
+    font-size: 56px;
+    text-align: left;
+}
+
+.banner-info p {
+    padding: 32px;
+    text-align: left;
+    padding-left: 130px;
+    
+    line-height: 30px;
+}
 
 
 
 
+.banner-container {
 
-    /* Our-Featured-Flowers */
-    .Our-Featured-Flowers{
-        padding-top: 170px;
-        background-color: #FFF;
-    }
+    display: flex;
+    justify-content: space-between;
 
-    .Our-Featured-Flowers-text>.description{
-        
-        padding-top: 20px;
-    }
+    margin: 0 auto;
+    align-items: center;
+    gap: 170px;
+    padding-top: 50px;
+    padding-right: 80px;
+    background-color: #fceef1;
+}
+
+.banner-image {}
+
+.banner-img {
+
+    width: 353px;
+    height: 509px;
+    margin-top: 70px;
+    margin-right: 50px;
+
+}
+
+
+
+.text-section h3 {
+    text size
+}
+
+.text-section>.description{
+    padding-top: 38px;
+}
+
+.main-section{
+    padding-top: 115px;
+}
