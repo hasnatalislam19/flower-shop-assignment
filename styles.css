@@ -60,7 +60,7 @@ body {
 
 
 
-/* ---banner-section ---*/
+/*------- ---banner-section -----------*/
 
 
 .banner-title {
@@ -121,6 +121,7 @@ body {
 
 .featured {
     padding-top: 170px;
+    padding-bottom: 40px;
 }
 
 .gallery-section {
@@ -194,6 +195,63 @@ body {
     font-weight: 700;
 }
 
+/*--Extra--birthday-bouquet-section--- */
+
+.birthday-bouquet-section {
+    background-color: #fceef1;
+    height: 600px;
+}
+
+.birthday-bouquet {
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.birthday-bouquet>.column-1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.birthday-bouquet>.column-2 {
+    padding-left: 70px;
+    padding-top: 80px;
+
+}
+
+.column-2>button {
+    text-align: center;
+    margin-left: 60px;
+
+}
+
+
+.bb-img1 {
+    height: 10%;
+}
+
+.bb-img2 {
+    height: 10%;
+    margin-top: -210px;
+}
+
+
+.column-2>.title {
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.column-2>.description {
+    padding-bottom: 30px;
+}
+
+.bb-button {
+    text-align: center;
+}
+
 
 /* --.our-support related styles-- */
 .our-support-item {
@@ -218,7 +276,6 @@ body {
 .our-support-box {
     padding: 40px;
 }
-
 
 
 /* --Exciting offer section-- */
@@ -251,7 +308,6 @@ body {
 
 /*-- instagram-section-- */
 
-.instagram-container {}
 
 .insta-text h3 {
     text-align: center;
@@ -345,7 +401,6 @@ body {
 
 .footer-text-color {
     color: #E55473
-     
 }
 
 .footer-info {
@@ -354,10 +409,10 @@ body {
     padding-bottom: 60px;
 }
 
-.copy-right{
+.copy-right {
     padding-top: 35px;
     text-align: center;
     color: rgba(255, 255, 255, 0.40);
-    letter-spacing: .8px;   
+    letter-spacing: .8px;
 
 }
